@@ -1,0 +1,286 @@
+{
+  "lastModified": 1749519027000,
+  "created": 1749517642000,
+  "title": "Island Buggy Tour, Food & Snorkel",
+  "shortDescription": "descripcion del tour",
+  "description": "<p style=\"font-size:14px;line-height:1.6;color:#57646f;margin-top:0.5em;margin-bottom:0.5em\">descripcion del tour</p>",
+  "keywords": [],
+  "type": "DAY_TOUR_OR_ACTIVITY",
+  "privateExperience": false,
+  "timeZone": "UTC",
+  "categories": [
+    "CITY_TOURS"
+  ],
+  "themes": [
+    "BEACH"
+  ],
+  "difficultyLevel": "EASY",
+  "minAge": 0,
+  "duration": {
+    "minutes": 0,
+    "hours": 5,
+    "days": 0,
+    "weeks": 0
+  },
+  "location": {
+    "id": 1076405,
+    "countryCode": "MX",
+    "city": "Cozumel",
+    "state": "Quintana Roo",
+    "name": "Plaza Punta Langosta, Avenida Rafael E. Melgar, Centro, Cozumel, Quintana Roo, Mexico",
+    "placeId": "ChIJQ4td1cRZTo8RsFenRw0PAE0",
+    "latitude": 20.5069781,
+    "longitude": -86.9549236
+  },
+  "itinerary": [
+    {
+      "id": 3077247,
+      "title": "city tour",
+      "excerpt": "",
+      "description": "<p style=\"font-size: 14px; line-height: 1.6; color: #57646f; margin-top: 0.5em; margin-bottom: 0.5em\">city tour</p>",
+      "address": {
+        "id": 16155297,
+        "addressLine1": "",
+        "addressLine2": "",
+        "addressLine3": "",
+        "city": "",
+        "state": "",
+        "postalCode": "",
+        "countryCode": "",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "photos": []
+    },
+    {
+      "id": 3077248,
+      "title": "tequila",
+      "excerpt": "",
+      "description": "<p style=\"font-size: 14px; line-height: 1.6; color: #57646f; margin-top: 0.5em; margin-bottom: 0.5em\">tequila</p>",
+      "photos": []
+    }
+  ],
+  "photos": [
+    {
+      "id": 9077055,
+      "originalUrl": "http://bokun.s3.amazonaws.com/f009062b-4438-4a2d-b139-b6fa64f0f222.jpeg",
+      "url": "https://imgcdn.bokun.tools/f009062b-4438-4a2d-b139-b6fa64f0f222.jpeg",
+      "height": 720,
+      "width": 1280
+    },
+    {
+      "id": 9077082,
+      "originalUrl": "http://bokun.s3.amazonaws.com/824e2ac1-f630-468b-a992-55dff0312170.jpeg",
+      "url": "https://imgcdn.bokun.tools/824e2ac1-f630-468b-a992-55dff0312170.jpeg",
+      "height": 960,
+      "width": 1280
+    },
+    {
+      "id": 9077083,
+      "originalUrl": "http://bokun.s3.amazonaws.com/e7acc333-bacd-4ae2-addb-aabb2967fc85.jpeg",
+      "url": "https://imgcdn.bokun.tools/e7acc333-bacd-4ae2-addb-aabb2967fc85.jpeg",
+      "height": 864,
+      "width": 1152
+    },
+    {
+      "id": 9077085,
+      "originalUrl": "http://bokun.s3.amazonaws.com/19da07fa-3d52-4bd9-9ed2-e9abb44c1f6a.jpeg",
+      "url": "https://imgcdn.bokun.tools/19da07fa-3d52-4bd9-9ed2-e9abb44c1f6a.jpeg",
+      "height": 899,
+      "width": 1599
+    },
+    {
+      "id": 9077086,
+      "originalUrl": "http://bokun.s3.amazonaws.com/7e74c212-df26-4ffc-8337-275fd06022b9.jpeg",
+      "url": "https://imgcdn.bokun.tools/7e74c212-df26-4ffc-8337-275fd06022b9.jpeg",
+      "height": 558,
+      "width": 558
+    }
+  ],
+  "videos": [],
+  "guidanceTypes": {
+    "GUIDED": [
+      "en",
+      "es"
+    ]
+  },
+  "inclusions": [
+    "WIFI"
+  ],
+  "included": "<p style=\"font-size:14px;line-height:1.6;color:#57646f;margin-top:0.5em;margin-bottom:0.5em\">incluido uno</p>",
+  "exclusions": [
+    "PARKING_FEES"
+  ],
+  "excluded": "<p style=\"font-size:14px;line-height:1.6;color:#57646f;margin-top:0.5em;margin-bottom:0.5em\">no incuidos</p>",
+  "knowBeforeYouGo": [],
+  "extras": [
+    {
+      "id": 219146,
+      "externalId": "",
+      "title": "overview",
+      "description": "overview",
+      "maxPerBooking": 0,
+      "limitByPax": false
+    }
+  ],
+  "bookingType": "DATE_AND_TIME",
+  "seasonalOpeningHours": [],
+  "cutoff": {
+    "type": "RELATIVE_TO_START_TIME",
+    "minutes": 0,
+    "hours": 0,
+    "days": 0,
+    "weeks": 0
+  },
+  "capacityType": "LIMITED",
+  "startTimes": [
+    {
+      "id": 4012844,
+      "externalId": "",
+      "label": "",
+      "externalLabel": "",
+      "hour": 8,
+      "minute": 0,
+      "durationMinutes": 0,
+      "durationHours": 5,
+      "durationDays": 0,
+      "durationWeeks": 0
+    },
+    {
+      "id": 4012846,
+      "externalId": "",
+      "label": "",
+      "externalLabel": "",
+      "hour": 9,
+      "minute": 0,
+      "durationMinutes": 0,
+      "durationHours": 5,
+      "durationDays": 0,
+      "durationWeeks": 0
+    }
+  ],
+  "availabilityRules": [
+    {
+      "id": 8546207,
+      "recurrenceRule": {
+        "byWeekday": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ],
+        "byMonth": []
+      },
+      "maxCapacity": 20,
+      "maxCapacityForPickup": 0,
+      "minTotalPax": 1,
+      "allStartTimes": true,
+      "guidedLanguages": [
+        "en",
+        "es"
+      ]
+    }
+  ],
+  "pricingCategories": {
+    "defaultId": 902289,
+    "ids": [
+      902289,
+      902291
+    ]
+  },
+  "rates": {
+    "defaultRate": {
+      "id": 2029382
+    },
+    "rates": [
+      {
+        "id": 2029382,
+        "title": "Standard rate",
+        "created": 1749517643000,
+        "lastModified": 1749517643000,
+        "minPerBooking": 1,
+        "pickupSelectionType": "UNAVAILABLE",
+        "dropoffSelectionType": "UNAVAILABLE",
+        "cancellationPolicyId": 213370,
+        "pricedPerPerson": true,
+        "tieredPricingEnabled": false,
+        "allStartTimes": true,
+        "allPricingCategories": true
+      }
+    ]
+  },
+  "pricing": {
+    "experiencePriceRules": [
+      {
+        "id": 248888400,
+        "rate": {
+          "id": 2029382
+        },
+        "created": 1749518020000,
+        "priceCatalogId": 124082,
+        "currency": "USD",
+        "amount": "75.990000",
+        "pricingCategoryId": 902291
+      },
+      {
+        "id": 248888399,
+        "rate": {
+          "id": 2029382
+        },
+        "created": 1749518020000,
+        "priceCatalogId": 124082,
+        "currency": "USD",
+        "amount": "85.500000",
+        "pricingCategoryId": 902289
+      }
+    ],
+    "extraPriceRules": [],
+    "pickupPriceRules": [],
+    "dropoffPriceRules": [],
+    "priceCatalogCurrencies": [
+      {
+        "priceCatalogId": 124082,
+        "currencies": [
+          "USD"
+        ],
+        "defaultCurrency": "USD"
+      }
+    ]
+  },
+  "mainPaxInfo": [],
+  "otherPaxInfo": [],
+  "bookingQuestions": [],
+  "combo": {
+    "isCombo": false
+  },
+  "ticket": {
+    "barcodeFormat": "QR_CODE",
+    "ticketPerPerson": false
+  },
+  "bookingLabels": [],
+  "flags": [],
+  "customInputFieldValues": [],
+  "inventorySettings": {
+    "enabled": false
+  },
+  "allowCustomizedBookings": false,
+  "boxSettings": {
+    "isBox": false
+  },
+  "activation": {
+    "activated": false
+  },
+  "meetingType": {
+    "type": "MEET_ON_LOCATION",
+    "meetingPointAddresses": [],
+    "dropoffService": false
+  },
+  "id": 1037930,
+  "earlyBookingLimit": {
+    "limitType": "UNLIMITED"
+  },
+  "reservationTimeout": 90
+}

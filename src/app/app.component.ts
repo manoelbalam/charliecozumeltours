@@ -7,10 +7,10 @@ import { CommonModule } from '@angular/common';
   selector: 'app-root',
   imports: [RouterOutlet,CommonModule],
   template: `
-    <h1>Welcome to {{title}}!</h1>
+    <!-- <h1>Welcome to {{title}}!</h1> -->
 
     <router-outlet />
-    <table>
+    <!-- <table>
         <thead>
             <th>Name</th>
             <th>Index</th>
@@ -21,34 +21,46 @@ import { CommonModule } from '@angular/common';
                 <td><img src="{{photo.url }}" alt="{{photo.id }}" width="50" height="50"> </td>
             </tr>
         </tbody>
-    </table>
+    </table> -->
   `,
   styles: [],
 })
 export class AppComponent implements OnInit{
   title = 'charliecozumeltours';
-  posts: any[] = [];
+  itinerary: any[] = [];
   photos: any[] = [];
+  duration: any[] = [];
+  difficultyLevel = '';
+  
+  experienceIds = [938509, 1023241, 1037930];
+
   constructor (private bokunService: BokunService){}
 
   ngOnInit(): void {
-    // 1023241 atv id
-    const experienceId = '1023241';
-    this.bokunService.getExperiencePhotos(experienceId).subscribe({
-      next: (data) => {
-        // console.log(data);
-        this.photos = data;
+    console.log(this.experienceIds[2])
+    this.bokunService.getExperience(this.experienceIds).subscribe({
+      next: (experienceData) => {
+        // console.log(experienceData)
       }
     });
-
-    // this.bokunService.getTimezones().subscribe({
+    // const experienceId = '938509';
+    // this.bokunService.getExperiencePhotos(experienceId).subscribe({
     //   next: (data) => {
-    //     // this.posts = data;
-    //     // console.log('✅ TimeZones:', data);
-    //   },
-    //   error: (err) => {
-    //     console.error('❌ Error loading posts:', err);
+    //     this.photos = data.photos;
+    //     this.itinerary = data.itinerary;
+    //     this.difficultyLevel = data.difficultyLevel;
+    //     this.duration = data.duration;
+    //     // console.log(data.duration.hours);
+    //     // console.log(data.itinerary);
     //   }
     // });
+    // this.bokunService.getActiveExperience(this.experienceIds).subscribe({
+    //   next: (data) => {
+    //     console.log('bokunService.getActiveExperiences.data: ' + data);
+    //   }
+    // });
+     
+
+    
   }
 }
