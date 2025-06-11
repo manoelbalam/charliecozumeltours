@@ -7,27 +7,28 @@ import { CommonModule } from '@angular/common';
   selector: 'app-root',
   imports: [RouterOutlet,CommonModule],
   template: `
-    <!-- <h1>Welcome to {{title}}!</h1> -->
-
     <router-outlet />
-    <!-- <table>
+    <table>
         <thead>
-            <th>Name</th>
-            <th>Index</th>
+          <th>id</th>
+          <th>Name</th>
+          <th>Itinerary</th>
         </thead>
         <tbody>
-            <tr *ngFor="let photo of photos">
-                <td>{{photo.id}}</td>
-                <td><img src="{{photo.url }}" alt="{{photo.id }}" width="50" height="50"> </td>
-            </tr>
+          <tr *ngFor="let d of data">
+            <td>{{d.id}}</td>
+            <td>{{d.title}}</td> 
+            <td>{{d.itinerary}}</td> 
+          </tr>
         </tbody>
-    </table> -->
+    </table>
   `,
   styles: [],
 })
 export class AppComponent implements OnInit{
   title = 'charliecozumeltours';
   itinerary: any[] = [];
+  data: any[] = [];
   photos: any[] = [];
   duration: any[] = [];
   difficultyLevel = '';
@@ -37,30 +38,11 @@ export class AppComponent implements OnInit{
   constructor (private bokunService: BokunService){}
 
   ngOnInit(): void {
-    console.log(this.experienceIds[2])
     this.bokunService.getExperience(this.experienceIds).subscribe({
       next: (experienceData) => {
-        // console.log(experienceData)
+        console.log(experienceData)
+        this.data = experienceData
       }
     });
-    // const experienceId = '938509';
-    // this.bokunService.getExperiencePhotos(experienceId).subscribe({
-    //   next: (data) => {
-    //     this.photos = data.photos;
-    //     this.itinerary = data.itinerary;
-    //     this.difficultyLevel = data.difficultyLevel;
-    //     this.duration = data.duration;
-    //     // console.log(data.duration.hours);
-    //     // console.log(data.itinerary);
-    //   }
-    // });
-    // this.bokunService.getActiveExperience(this.experienceIds).subscribe({
-    //   next: (data) => {
-    //     console.log('bokunService.getActiveExperiences.data: ' + data);
-    //   }
-    // });
-     
-
-    
   }
 }
