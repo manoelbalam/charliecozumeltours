@@ -3,7 +3,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 import { formatDate } from '@angular/common';
 import * as CryptoJS from 'crypto-js';
-import { environment } from '../../../environment.development';
+import { environment } from '../../../env.prod';
+
 
 interface Photo {
   id: number;
